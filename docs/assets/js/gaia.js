@@ -161,12 +161,12 @@ gaia = {
             if($(document).scrollTop() > scroll_distance ) {
                 if(transparent) {
                     transparent = false;
-                    $navbar.removeClass('navbar-transparent');
+                    $navbar.removeClass('');
                 }
             } else {
                 if( !transparent ) {
                     transparent = true;
-                    $navbar.addClass('navbar-transparent');
+                    $navbar.addClass('');
                 }
             }
     }, 17),
