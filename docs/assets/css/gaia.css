@@ -23,7 +23,9 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-size: 100%;
+  font-size: 140%;
+	font-family: Poppins;
+	line-height: 1.9em;
 }
 @media (min-width: 58em) {
   body {
@@ -32,17 +34,17 @@ body {
 }
 @media (min-width: 115em) {
   body {
-    font-size: 110%;
+    font-size: 140%;
   }
 }
 @media (min-width: 125em) {
   body {
-    font-size: 115%;
+    font-size: 140%;
   }
 }
 @media (min-width: 145em) {
   body {
-    font-size: 120%;
+    font-size: 140%;
   }
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -67,7 +69,7 @@ h6,
 .content-blog p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: "Cambo", "Times New Roman", serif;
+  font-family: Poppins, "Times New Roman", serif;
 }
 h1 a,
 .h1 a,
@@ -125,7 +127,7 @@ h5 {
 
 p {
   font-size: 14px;
-  line-height: 1.6em;
+  line-height: 1.9em;
   font-weight: 400;
   margin: 0 0 .75em;
 }
@@ -144,7 +146,7 @@ td,
 small,
 .media h5,
 .subtitle {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -166,7 +168,7 @@ a:hover {
 }
 
 .title-modern {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
@@ -965,6 +967,13 @@ a,
 .section {
   position: relative;
 }
+.impressum {
+  max-width: 760px;
+  margin: 0 auto 70px;
+  display: block;
+  padding: 0 15px;
+
+}
 .section .title-area {
   max-width: 760px;
   margin: 0 auto 70px;
@@ -1306,9 +1315,9 @@ a,
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 0px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 .navbar .navbar-nav > li > a.btn {
   margin: 15px 3px;
@@ -1940,7 +1949,6 @@ a,
   color: #333333;
 }
 .card .description {
-  font-size: 13px;
 }
 
 .card-member {
@@ -2204,7 +2212,7 @@ a,
   margin-bottom: 5px;
 }
 .client-logo h3 {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .section-team-1 {
@@ -3740,4 +3748,14 @@ body {
   .section-pricing .row [class^="col-"] {
     padding: 0;
   }
+}
+.img-about {
+	width: 300px;
+}
+.normal {
+	text-align: left;
+}
+.over-img {
+	text-align: left;
+	text-transform: none!important;
 }
