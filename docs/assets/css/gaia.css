@@ -3767,6 +3767,7 @@ body {
 }
 .contact-link {
 	color: #e78b90;
+	font-size: 16px;
 }
 @media (min-width: 992px) {
 	.container {
@@ -3790,4 +3791,36 @@ body {
 }
 nav>.container {
 	padding: 0 10px;
+}
+.session-card {
+	background-color: #e78b90;
+	padding: 10px;
+	margin: 10px 0;
+	color: white;
+}
+.session {
+	font-weight: 600;
+}
+.session-facts {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: right;
+}
+.embed-consent {
+	background-color: #E3E3E3;
+	text-align: center;
+	vertical-align: middle;
+}
+.embed-consent .btn {
+	color: #e78b90;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10%;
+	margin: 10%;
+	border: none;
+	font-size: 18px;
+}
+iframe {
+	border: none;
 }
