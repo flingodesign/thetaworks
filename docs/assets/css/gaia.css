@@ -2532,7 +2532,7 @@ a,
 .section-get-started .image,
 .section-header-freebie .image,
 .section-our-team-freebie .image {
-  height: 100%;
+
 }
 
 .section-get-started {
@@ -2915,6 +2915,9 @@ a,
   .navbar-transparent .navbar-brand {
     color: #FFFFFF;
   }
+	.section .image {
+		height: 100%;
+	}
 }
 @-webkit-keyframes fadeIn {
   0% {
