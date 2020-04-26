@@ -3367,14 +3367,6 @@ body {
   transform: translate3d(-150px, 0, 0);
 }
 
-.nav-open .navbar .navbar-header {
-  -webkit-transform: translate3d(-200px, 0, 0);
-  -moz-transform: translate3d(-200px, 0, 0);
-  -o-transform: translate3d(-200px, 0, 0);
-  -ms-transform: translate3d(-200px, 0, 0);
-  transform: translate3d(-200px, 0, 0);
-}
-
 @media (min-width: 768px) {
   .navbar-form {
     margin-top: 21px;
@@ -3435,6 +3427,13 @@ body {
 }
 /*          Changes for small display      */
 @media (max-width: 767px) {
+	.nav-open .navbar .navbar-header {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -moz-transform: translate3d(-200px, 0, 0);
+  -o-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
   .navbar-transparent {
     padding-top: 0;
     background-color: rgba(0, 0, 0, 0.45);
