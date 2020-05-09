@@ -3808,6 +3808,7 @@ nav>.container {
 	padding: 10px;
 	margin: 10px 0;
 	color: white;
+	
 }
 .session {
 	font-weight: 600;
@@ -3860,4 +3861,27 @@ nav>.container {
 	.down-btn {
 		display: none;
 	}
+}
+@media (min-width: 767px) {
+	
+	.session-card {	
+		
+	background-color: #e78b90;
+	padding: 10px;
+	margin: 10px 0;
+	color: white;
+
+	min-height: 445px;;
+	}
+
+}
+
+.adress {
+	background-color: transparent;
+  border-radius: 3px;
+  color: #e78b90;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+	font-size: 16px;
+	
 }
