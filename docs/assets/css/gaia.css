@@ -978,7 +978,7 @@ a,
 }
 .section .title-area {
   max-width: 760px;
-  margin: 0 auto 70px;
+  margin: 70px auto ;
   display: block;
   padding: 0 15px;
   text-align: center;
@@ -3873,7 +3873,11 @@ nav>.container {
 
 	min-height: 445px;;
 	}
+	
+	.puffer-bottom {
+	
 
+	}
 }
 
 
@@ -3886,4 +3890,8 @@ nav>.container {
   filter: alpha(opacity=85);
 	font-size: 16px;
 	
+}
+
+.puffer-bottom {
+	padding-bottom: 65px;
 }
